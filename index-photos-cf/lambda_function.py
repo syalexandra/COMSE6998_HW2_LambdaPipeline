@@ -67,11 +67,3 @@ def lambda_handler(event, context):
     logger.info(file_name)
     """
     
-    
-    
-
-    
-    
-    
-    
-    
