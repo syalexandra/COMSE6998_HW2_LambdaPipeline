@@ -12,7 +12,7 @@ logger.setLevel(logging.INFO)
 
 def lambda_handler(event, context):
     # TODO implement
-    
+    # add comment
     temp=event["Records"][0]["s3"]
     bucket_name=temp["bucket"]["name"]
     object_key=temp["object"]["key"]
